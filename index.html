@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<!-- Smooth scroll not working -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Shoe Company</title>
+  <link rel="stylesheet" href="./output.css" />
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <script src="./script.js" defer></script>
+</head>
+
+<body class="text-white bg-black">
+  <header
+    class="section-container flex items-center justify-between fixed w-full left-[50%] -translate-x-[50%] bg-black/60 backdrop-blur-sm z-10"
+    id="header">
+    <a href="#">
+      <img class="w-24 md:w-32" src="./Images/logo.png" alt="logo" />
+      <p class="text-xs -mt-6 md:text-sm md:-mt-8">The Shoe Company</p>
+    </a>
+    <nav class="hidden md:block space-x-6 lg:space-x-10 lg:text-2xl font-bold">
+      <a href="#hero">Home</a>
+      <a href="#how-it-works">How It Works?</a>
+      <a href="#about">About</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+    <button class="text-5xl block md:hidden active:text-red-600" id="hamberger-menu">≡</button>
+  </header>
+  <section id="hero"
+    class="bg-[url('./Images/hero-background.png')] bg-cover md:bg-contain bg-no-repeat bg-right pt-36 section-container">
+    <div class="flex flex-col md:flex-row md:items-center justify-between max-w-6xl">
+      <h1 class="text-3xl md:text-7xl font-bold leading-10 md:leading-[92px]">
+        THE <br />
+        SHOE <br />
+        COMPANY
+      </h1>
+      <div>
+        <img class="w-full max-w-xl" src="./Images/hero-image.png" alt="white shoe" />
+      </div>
+    </div>
+  </section>
+  <section id="how-it-works" class="section-container pt-20 scroll-mt-6">
+    <h2 class="text-3xl font-bold max-w-md text-center mx-auto xl:mb-8">
+      Have they finally made the perfect workout shoe?
+    </h2>
+    <div class="max-w-xl mx-auto relative pt-60 xl:pt-12">
+      <img class="w-full max-w-2xl rotate-6 xl:rotate-0" src="./Images/how-it-works-image.png" alt="shoe" />
+      <div
+        class="max-w-52 xl:max-w-44 absolute top-4 media700:top-36 xl:top-8 media700:-translate-x-12 xl:-translate-x-[170px]">
+        <h3 class="text-lg media700:text-xl font-bold">THE HEEL</h3>
+        <p class="text-xs media700:text-sm media700:font-normal mt-2">
+          The heel is well-built, has appropriate elevation and is not too
+          rigid.
+        </p>
+        <img class="w-32 xl:ml-auto translate-x-0 rotate-[53deg] xl:rotate-0" src="./Images/arrow-1.png" alt="arrow1" />
+      </div>
+      <div class="max-w-40 xl:max-w-44 absolute top-10 right-0 xl:-right-32">
+        <img
+          class="translate-x-6 translate-y-36 media600:-mb-24 media600:translate-y-48 xl:translate-y-0 rotate-[120deg] xl:rotate-0 media600:-ml-20 xl:-ml-44"
+          src="./Images/arrow-2.png" alt="arrow2" />
+        <h3
+          class="text-lg media700:text-xl font-bold -translate-y-20 media600:translate-y-8 xl:translate-y-0 -translate-x-8 media600:-translate-x-12 xl:translate-x-0">
+          THE FRONT
+        </h3>
+        <p
+          class="text-xs media700:text-sm media700:font-normal -translate-y-20 media600:translate-y-8 xl:translate-y-0 -translate-x-12 media600:-translate-x-12 xl:translate-x-0 mt-2">
+          The front is comfortable and adjusts well to the shape of your foot.
+        </p>
+      </div>
+      <div
+        class="max-w-44 absolute -translate-x-16 translate-y-24 media450:-translate-x-8 media450:translate-y-12 media600:-mt-20 xl:-mt-0 media600:mr-36 xl:mr-72 bottom-2">
+        <img class="ml-32 xl:ml-24 xl:mt-96" src="./Images/arrow-3.png" alt="arrow3" />
+        <h3
+          class="text-lg media700:text-xl font-bold translate-x-20 xl:translate-x-0 translate-y-[72px] xl:translate-y-0 -mt-28 -mr-24 xl:-mr-32">
+          TRACTION
+        </h3>
+        <p
+          class="text-xs media700:text-sm media700:font-normal translate-x-20 xl:translate-x-0 translate-y-[72px] xl:translate-y-0 mt-2">
+          The shoe has good traction and doesn't slip easily.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="section-container mt-32 flex flex-col md:flex-row space-x-12 md:space-x-14 scroll-mt-28">
+    <h2 class="text-3xl my-6 text-center font-bold md:hidden">About Us!</h2>
+    <div class="bg-[url('./Images/about-us-background.png')] bg-no-repeat md:w-full self-center">
+      <img src="./Images/about-shoe-company.png" alt="legs" />
+    </div>
+    <div class="space-y-8 max-w-xl md:w-full">
+      <h2 class="text-6xl font-bold hidden md:block">About Us!</h2>
+      <p>
+        For each one of those shoe sweethearts out there, THE SHOE COMPANY
+        offer the one-stop goal to pick the correct match of footwear.
+      </p>
+      <p>
+        Gone are the days when you needed to go from store to store to locate
+        the correct style and size for yourself.
+      </p>
+      <p>
+        At THE SHOE COMPANY, you can locate a vast accumulation of dashing
+        footwear in all sizes and styles, all inside a couple of snaps.
+      </p>
+      <p>
+        Simple right? Not just we are here to spare your time, we are putting
+        forth you the most dazzling footwear alternatives from all the
+        first-rate brands like DAVINCHI, PRINCESS, and SIGNATURE. At
+        ‘Organization Name’, we offer men, ladies, and child’s shoes perfect
+        for any and each event.
+      </p>
+    </div>
+  </section>
+  <section id="testimonials" class="section-container mt-8 pt-8 bg-testimonial-section bg-no-repeat scroll-mt-20">
+    <h2 class="text-3xl md:text-6xl font-bold text-center">
+      What People are saying about THE SHOE COMPANY ?
+    </h2>
+    <div
+      class="text-center flex flex-col items-center md:items-stretch gap-8 md:flex-row justify-between space-x-4 mt-16 max-w-5xl mx-auto">
+      <div class="w-60">
+        <img class="w-full mb-4" src="./Images/testimonial-1.png" alt="testimonial" />
+        <p>
+          “Looking for shoes that are built just for you? THE SHOE COMPANY is
+          the way to go. Love the design and build quality.”
+        </p>
+      </div>
+      <div class="w-60">
+        <img class="w-full mb-4" src="./Images/testimonial-2.png" alt="testimonial" />
+        <p>
+          “I love the shoes, the quality, and everyting. They are worth the
+          investment!”
+        </p>
+      </div>
+      <div class="w-60">
+        <img class="w-full mb-4" src="./Images/testimonial-3.png" alt="testimonial" />
+        <p>
+          “They make the best and forever lasting shoes. Superb fit and
+          confort is literally the next level. Much recommended!”
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="section-container flex flex-col lg:flex-row items-center justify-between p-16">
+    <div class="mb-10 lg:mb-0 shrink-0 self-start lg:self-center">
+      <h2 class="text-3xl md:text-6xl font-bold">Contact Us</h2>
+      <p class="max-w-[180px] mt-8 mb-4">
+        THE SHOE COMPANY, Dallas, Texas, USA +1 5590 1120 9910
+      </p>
+      <div class="flex space-x-4">
+        <a href="#">
+          <img src="./Images/facebook.svg" alt="facebook icon" />
+        </a>
+        <a href="#">
+          <img src="./Images/instagram.svg" alt="instagram icon" />
+        </a>
+        <a href="#">
+          <img src="./Images/twitch.svg" alt="twitch icon" />
+        </a>
+        <a href="#">
+          <img src="./Images/youtube.svg" alt="youtube icon" />
+        </a>
+      </div>
+    </div>
+    <div class="w-full">
+      <iframe class="w-full max-w-xl mx-auto lg:mx-0 lg:ml-auto"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429174.1217746946!2d-97.06122222432602!3d32.82080972349139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX%2C%20USA!5e0!3m2!1sen!2sin!4v1734269061618!5m2!1sen!2sin"
+        height="800" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  <footer class="flex justify-center items-center">
+    <a href="#">
+      <img class="w-12" src="./Images/logo.png" alt="logo" />
+      <p class="text-[8px] -mt-3">The Shoe Company</p>
+    </a>
+    <p>
+      Made with <img class="inline-block" src="./Images/image.png" alt="shoe" /> By Sarthak Pandey
+    </p>
+  </footer>
+</body>
+
+</html>
